@@ -67,7 +67,7 @@ public class main {
                     System.out.println("What do you choose? Rock (R) Paper (P) Scissor (S)?");
                     userInput = (input.nextLine().toLowerCase());
                     //changes the ROC's life if it's destroyed with the rockPaperScissors method
-                    rockLife -= rockClass.rockPaperScissors(userInput);
+                    rockLife +=rockClass.rockPaperScissors(userInput);
                 } else {
                     System.out.println("Do you want to abandon " + rockName + "? (Y or N)");
                     userInput = input.nextLine().toLowerCase();
@@ -92,4 +92,3 @@ public class main {
 
     }
 }
-
