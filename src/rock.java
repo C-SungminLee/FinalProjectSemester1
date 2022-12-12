@@ -23,7 +23,7 @@ public class rock {
         }else if (userInput.equals("p")){
             System.out.println("You won against " + rockName + "!");
             //rock takes 10 damage
-            // return (-10);
+            return (-10);
         //if the user chooses scissors
         }else if(userInput.equals("s")){
             System.out.println("You lost against " + rockName + "!");
@@ -36,7 +36,5 @@ public class rock {
             return (-2);
         }
 
-        return 0;
     }
 }
-
